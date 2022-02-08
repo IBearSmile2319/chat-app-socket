@@ -1,0 +1,36 @@
+{
+  "name": "chat-app-socket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "client": "cd ./chat-app && npm run dev",
+    "start": "node index.js",
+    "help": "concurrently \"npm run dev\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "Maicol Manuel Orosco Vasquez",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^7.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.5",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IBearSmile2319/chat-app-socket.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IBearSmile2319/chat-app-socket/issues"
+  },
+  "homepage": "https://github.com/IBearSmile2319/chat-app-socket#readme",
+  "description": ""
+}
